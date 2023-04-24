@@ -5,12 +5,12 @@ import {getFirestore} from 'firebase/firestore'
 
 // TODO: Replace the following with your app's Firebase project configuration
 const firebaseConfig = {
-    apiKey: process.env.NEXT_PUBLIC_APIKEY,
-    authDomain: process.env.NEXT_PUBLIC_AUTHDOMAIN,
-    projectId: process.env.NEXT_PUBLIC_PROJECTID,
-    storageBucket: process.env.NEXT_PUBLIC_STORAGEBUCKET,
-    messagingSenderId: process.env.NEXT_PUBLIC_MESSAGINGSENDERID,
-    appId: process.env.NEXT_PUBLIC_APPID
+   apiKey: "AIzaSyBka4H7-Dz9VDp47TtU4eX8Vlq6PXzn0-E",
+  authDomain: "reminder-app-d42e6.firebaseapp.com",
+  projectId: "reminder-app-d42e6",
+  storageBucket: "reminder-app-d42e6.appspot.com",
+  messagingSenderId: "711882461700",
+  appId: "1:711882461700:web:eca5dcb461a9df169c9b51"
 };
 
 const app = initializeApp(firebaseConfig);
