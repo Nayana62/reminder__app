@@ -5,7 +5,7 @@ import {getFirestore} from 'firebase/firestore'
 
 // TODO: Replace the following with your app's Firebase project configuration
 const firebaseConfig = {
-   apiKey:"AIzaSyBka4H7-Dz9VDp47TtU4eX8Vlq6PXzn0-E",
+  apiKey: "AIzaSyBka4H7-Dz9VDp47TtU4eX8Vlq6PXzn0-E",
   authDomain: "reminder-app-d42e6.firebaseapp.com",
   projectId: "reminder-app-d42e6",
   storageBucket: "reminder-app-d42e6.appspot.com",
