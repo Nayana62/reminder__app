@@ -1,15 +1,11 @@
 import { initializeApp } from 'firebase/app';
-import {getAuth} from 'firebase/auth'
+import {getAuth, GoogleAuthProvider} from 'firebase/auth'
 import {getFirestore} from 'firebase/firestore'
 
 
 // TODO: Replace the following with your app's Firebase project configuration
 const firebaseConfig = {
-<<<<<<< HEAD
-    apiKey: "AIzaSyBka4H7-Dz9VDp47TtU4eX8Vlq6PXzn0-E",
-=======
-   apiKey: "AIzaSyBka4H7-Dz9VDp47TtU4eX8Vlq6PXzn0-E",
->>>>>>> f938ac05bb4a4e2a2c8c9c31bbd8242462d2d215
+   apiKey:"AIzaSyBka4H7-Dz9VDp47TtU4eX8Vlq6PXzn0-E",
   authDomain: "reminder-app-d42e6.firebaseapp.com",
   projectId: "reminder-app-d42e6",
   storageBucket: "reminder-app-d42e6.appspot.com",
@@ -21,3 +17,4 @@ const app = initializeApp(firebaseConfig);
 
 export const auth = getAuth(app)
 export const db = getFirestore(app)
+export const googleProvider = new GoogleAuthProvider()
